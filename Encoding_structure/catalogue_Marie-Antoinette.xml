@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE catalogue SYSTEM "bibliotheque_Marie-Antoinette.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bibliothèques de Marie-Antoinette</title>
+            <respStmt>
+               <resp>Encoded by</resp>
+               <name>Fanny Suszko</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Ecole des Chartes M2 -TNAH</publisher>
+            <date>2025</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Name of the first file</bibl>
+            <bibl>Name of the second file</bibl>
+            <bibl>Name of the third file</bibl>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+   
+  <text>
+      <body>
+         <listBibl>
+            <bibl>
+               <title type="section">Titre de section sur la page</title>
+               <title></title>
+               <author></author>
+               <date></date>
+               <pubPlace></pubPlace>
+               <note></note>
+               <affiliation>
+               <origPlace></origPlace>
+               </affiliation>
+            </bibl>
+         </listBibl>
+      </body>
+  </text>
+</TEI>

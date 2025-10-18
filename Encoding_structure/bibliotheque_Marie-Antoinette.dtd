@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT catalogue (book+)>
+<!ELEMENT teiHeader (fileDesc)>
+<!ELEMENT fileDesc (titleStmt, publicationStmt, sourceDesc)>
+<!ELEMENT titleStmt (title, respStmt)>
+<!ELEMENT respStmt (resp, name)>
+<!ELEMENT publicationStmt (publisher, date)>
+<!ELEMENT sourceDesc (bibl+)>
+<!ELEMENT book (title, author?, date?, pubPlace?, note?, origPlace?, url?)>
+<!ATTLIST book type CDATA #IMPLIED>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT date EMPTY>
+<!ATTLIST date when CDATA #REQUIRED>
+<!ATTLIST date calendar (julian | gregorian | chinese |other) #REQUIRED>
+<!ELEMENT pubPlace (#PCDATA)>
+<!ELEMENT note (#PCDATA)>
+<!ELEMENT origPlace (#PCDATA)>
+<!ELEMENT url (#PCDATA)>
+<!ELEMENT publisher (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT resp (#PCDATA)>
+<!ELEMENT bibl (#PCDATA)>
