@@ -1,2 +1,4 @@
 # Bibliothèque de la reine Marie-Antoinette
-I chose to work on a corpus of three historical catalogs of Queen Marie-Antoinette.
+I chose to work on a corpus of three historical catalogs of Queen Marie-Antoinette. This three documents describes an aspects of her book's collections who let's us see her evolution in reading and what kind of book she reads. I selected this documents to show on new image of this famous queen.
+I will use XML to help to structure this project. XML could help me structure the notices who already follow a hierarchy (title, author,format, bookbinding, origin). XML could also help me to navigate more easily on those differents catalogs who came from differents places (Boudoir, Trianon, Tuileries).
+I used ChatGPT (GPT-5) only to clarify the assignment instructions and to confirm the relevance of my chosen source materials. All project design and writing are my own.
